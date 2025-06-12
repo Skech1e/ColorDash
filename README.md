@@ -4,7 +4,7 @@ Controls are the buttons on screen.<br/>
 As player crosses gates, its speed also increases. Score is also updated according along with saving highscores on the device with PlayerPrefs.<br/>
 Object-pooling has been used for gates' spawning and ground tiles' spawning.<br/>
 Player-Gate engagement has been handled with a combination of OnTriggerEnter2D, OnTriggerExit2D, and events.<br/>
-A basic UI is also present.<br/>
+A basic UI with animations using DOTween is also present.<br/>
 
 #### Player
 Controls the player- its running speed, animator, its colour, and listens to game events<br/>
